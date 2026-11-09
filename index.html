@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MiBackup for Windows</title>
+<meta name="description" content="Download MiBackup, a one-click backup app for Windows.">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#1b2330;--muted:#5d6878;--line:#e0e4ea;--accent:#1f5fbf;--on-accent:#fff;--note:#fff6e5;--note-text:#6b4300}
+@media (prefers-color-scheme:dark){:root{--bg:#12161c;--card:#1b2129;--text:#e7eaee;--muted:#a3adbb;--line:#2d3540;--accent:#6ea3f2;--on-accent:#0d1520;--note:#33280f;--note-text:#f4d29a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:640px;margin:0 auto;padding:56px 16px}
+h1{font-size:36px;line-height:1.15;margin:0 0 10px}
+h2{font-size:18px;margin:0 0 10px}
+p{margin:0 0 14px}
+.lead{color:var(--muted);font-size:18px;margin-bottom:26px}
+.download{display:inline-block;background:var(--accent);color:var(--on-accent);padding:13px 24px;border-radius:8px;font-weight:600;text-decoration:none}
+.meta{color:var(--muted);font-size:14px;margin-top:10px}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:26px}
+ol{margin:0;padding-left:22px}li{margin-bottom:8px}
+.note{background:var(--note);color:var(--note-text);border-radius:8px;padding:12px 14px;margin-top:26px;font-size:15px}
+code{font-family:ui-monospace,Consolas,monospace;font-size:13px;overflow-wrap:anywhere}
+footer{color:var(--muted);font-size:14px;margin-top:26px}
+a{color:var(--accent)}
+.download{color:var(--on-accent)}
+</style>
+</head>
+<body>
+<main>
+  <h1>MiBackup for Windows</h1>
+  <p class="lead">Encrypted backups for your Windows PC, set up from one file.</p>
+  <a class="download" href="MiBackup.exe" download>Download MiBackup.exe</a>
+  <p class="meta">Version 0.1.0 · 49 MB · Windows 64-bit</p>
+
+  <p class="note"><strong>Early test version.</strong> Try it with test data first, and don't rely on it as your only backup yet.</p>
+
+  <section>
+    <h2>How to install</h2>
+    <ol>
+      <li>Double-click <strong>MiBackup.exe</strong>.</li>
+      <li>If Windows SmartScreen appears, click <strong>More info</strong>, then <strong>Run anyway</strong>. This app isn't code-signed yet.</li>
+      <li>Click <strong>Yes</strong> on the permission prompt.</li>
+      <li>In the dashboard that opens, add a storage location, choose your folders, and click <strong>Back up now</strong>.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Check your download</h2>
+    <p>The SHA-256 fingerprint of this file is:</p>
+    <code>ff81e4effaccbdbd72010ce7dd449a77b950318f99435e81a803baba4ec9aac5</code>
+  </section>
+
+  <footer>MiBackup includes <a href="restic-LICENSE.txt">restic</a>, used under the BSD 2-Clause License.</footer>
+</main>
+</body>
+</html>

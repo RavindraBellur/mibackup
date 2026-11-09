@@ -29,29 +29,30 @@ a{color:var(--accent)}
 <body>
 <main>
   <h1>MiBackup for Windows</h1>
-  <p class="lead">Encrypted backups for your Windows PC, set up from one file.</p>
+  <p class="lead">Encrypted backups for all your Windows PCs, managed from one server, set up from one file.</p>
   <a class="download" href="MiBackup.exe" download>Download MiBackup.exe</a>
-  <p class="meta">Version 0.1.1 · 49 MB · Windows 64-bit</p>
+  <p class="meta">Version 0.2.0 · 53 MB · Windows 64-bit</p>
 
   <p class="note"><strong>Early test version.</strong> Try it with test data first, and don't rely on it as your only backup yet.</p>
 
   <section>
     <h2>How to install</h2>
     <ol>
-      <li>Double-click <strong>MiBackup.exe</strong>.</li>
-      <li>If Windows SmartScreen appears, click <strong>More info</strong>, then <strong>Run anyway</strong>. This app isn't code-signed yet.</li>
+      <li>Download this same file for every PC and double-click it. If Windows SmartScreen appears, click <strong>More info</strong>, then <strong>Run anyway</strong>. This app isn't code-signed yet.</li>
       <li>Click <strong>Yes</strong> on the permission prompt.</li>
-      <li>In the MiBackup window that opens, add a storage location, choose your folders, and click <strong>Back up now</strong>.</li>
+      <li><strong>On one PC, choose Server.</strong> Add a storage folder and set the default backup settings for new PCs.</li>
+      <li><strong>On every other PC, choose Client.</strong> Check that the code it shows matches the code at the top of the server screen.</li>
+      <li>On the server, click <strong>Approve</strong> next to each new PC. Its name appears automatically.</li>
     </ol>
   </section>
 
   <section>
     <h2>Check your download</h2>
     <p>The SHA-256 fingerprint of this file is:</p>
-    <code>e0f12202cd112da8ece63260b2021cddb7f688c96cd7a9982f949770c5666dbe</code>
+    <code>19222446e07265d04a63a921f2b83d70ed74c7d97fa94c7322820cf10af6a982</code>
   </section>
 
-  <footer>MiBackup includes <a href="restic-LICENSE.txt">restic</a>, used under the BSD 2-Clause License.</footer>
+  <footer>MiBackup includes <a href="restic-LICENSE.txt">restic</a> and <a href="rest-server-LICENSE.txt">rest-server</a>, used under the BSD 2-Clause License, and other open-source libraries.</footer>
 </main>
 </body>
 </html>
